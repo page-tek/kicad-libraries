@@ -1,0 +1,181 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CP
+D Polarised capacitor
+$ENDCMP
+#
+$CMP CP_Small
+D Polarised capacitor
+$ENDCMP
+#
+$CMP CTRIM
+D Variable capacitor
+K trimmer
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K Quartz, Ceramic, Filter, Resonator
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal
+K Quartz, Resonator, Ceramic, Filter
+$ENDCMP
+#
+$CMP EMI_FILTER
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP EMI_FILTER2
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP FILTER
+D Filtre EMI
+K EMI
+$ENDCMP
+#
+$CMP F_Small
+D Fuse
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper normally close
+K Jumper, Link
+$ENDCMP
+#
+$CMP Jumper_NO_Small
+D Jumper normally open
+K Jumper, Link
+$ENDCMP
+#
+$CMP L_Small
+D Inductor
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP RF_SHIELD_ONE_PIECE
+D One-Piece EMI RF Shielding Cabinet
+K RF EMI Shielding Cabinet
+$ENDCMP
+#
+$CMP RF_SHIELD_TWO_PIECES
+D Two-Piece EMI RF Shielding Cabinet
+K RF EMI Shielding Cabinet
+$ENDCMP
+#
+$CMP ROTARY_ENCODER
+D Rotary encoder, dual channel, incremental quadrate outputs
+K rotary switch encoder
+F ~
+$ENDCMP
+#
+$CMP ROTARY_ENCODER_SWITCH
+D Rotary encoder, dual channel, incremental quadrate outputs, integrated pushbutton switch
+K rotary switch encoder pushbutton
+F ~
+$ENDCMP
+#
+$CMP RR8
+D 8 resistors
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 resistors Pack
+K R DEV
+$ENDCMP
+#
+$CMP R_Small
+D Resistor
+$ENDCMP
+#
+$CMP SCR
+D Thyristor
+$ENDCMP
+#
+$CMP SP3T
+D 3 position switch, SP3T
+K switch SP3T
+$ENDCMP
+#
+$CMP SPEAKER
+D Audio speaker, 2 pins, generic symbol
+K buzzer beeper sound
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP SWITCH_INV
+D inverseur
+K switch
+$ENDCMP
+#
+$CMP SWITCH_INV_MSM
+D Switch inverseur M S M
+K switch
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL
+D Button
+K switch
+$ENDCMP
+#
+$CMP SW_PUSH_SMALL_H
+D Button
+K switch
+$ENDCMP
+#
+$CMP Switch_DPST
+D Double Pole Single Throw (DPST) Switch
+K switch
+$ENDCMP
+#
+$CMP Switch_SPDT_x2
+D Double Single Pole Double Throw (SPDT) switch
+$ENDCMP
+#
+$CMP THERMISTOR
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP VR
+D VARISTANCE
+K VR  DEV
+$ENDCMP
+#
+#End Doc Library

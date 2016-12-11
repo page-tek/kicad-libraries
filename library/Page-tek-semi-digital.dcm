@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADuM140D
+D ADuM140D
+$ENDCMP
+#
+$CMP PCM4204PAP
+D PCM4204
+$ENDCMP
+#
+#End Doc Library
