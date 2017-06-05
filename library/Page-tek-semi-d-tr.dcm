@@ -278,6 +278,11 @@ D Transistor NPN, collector connected to mounting plane (general)
 K npn transistor
 $ENDCMP
 #
+$CMP Q_NPN_PNP_DUAL_EBCEBC
+D Transistor NPN/PNP Dual (general)
+K npn pnp transistor
+$ENDCMP
+#
 $CMP Q_PJFET_DGS
 D Transistor P-JFET (general)
 K pjfet p-jfet transistor
