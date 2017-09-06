@@ -7,11 +7,11 @@ pcb = GetBoard()
 moduleCount = 0
 for aModule in pcb.GetModules():
 	aModule.Reference().SetVisible(False)
-	aModule.Reference().SetHeight(1000000)
-	aModule.Reference().SetWidth(1000000)
+	#aModule.Reference().SetHeight(1000000)
+	#aModule.Reference().SetWidth(1000000)
 	aModule.Value().SetVisible(False)
-	aModule.Value().SetHeight(1000000)
-	aModule.Value().SetWidth(1000000)
+	#aModule.Value().SetHeight(1000000)
+	#aModule.Value().SetWidth(1000000)
 	moduleCount = moduleCount + 1
 
 mc_str = str(moduleCount)
