@@ -33,8 +33,8 @@
   (pad 2 thru_hole circle (at -2.54 -2.54) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -2.54 2.54) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.54 2.54) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
-  (model walter/conn_rf/sma_90_r300.124.403.wrl
-    (at (xyz 0 0 0))
+  (model conn_rf/sma_90_r300.124.403.wrl
+    (at (xyz 0 -0.17 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

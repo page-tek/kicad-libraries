@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP OCXO_4899
+D OFC OCXO 4899 series
+K OCXO
+$ENDCMP
+#
 #End Doc Library
