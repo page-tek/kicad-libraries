@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TQ2_separated
+D Panasonic TQ2
+$ENDCMP
+#
 #End Doc Library
