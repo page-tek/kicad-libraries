@@ -5,8 +5,11 @@ D OFC OCXO 4899 series
 K OCXO
 $ENDCMP
 #
+$CMP vcxo_4pin
+K OCXO
+$ENDCMP
+#
 $CMP vcxo_6pin
-D OFC OCXO 4899 series
 K OCXO
 $ENDCMP
 #
