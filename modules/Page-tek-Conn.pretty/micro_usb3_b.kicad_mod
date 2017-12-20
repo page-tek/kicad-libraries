@@ -31,4 +31,9 @@
   (pad 4 smd rect (at 0.65 -4.8 180) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.3 -4.8 180) (size 0.4 1.35) (layers F.Cu F.Paste F.Mask))
   (pad 11 smd rect (at -4 -1.45 180) (size 1.8 1.9) (layers F.Cu F.Paste F.Mask))
+  (model usb_3_micro.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
