@@ -1,11 +1,11 @@
 (module INDC286X203X203L51N-CC1008 (layer F.Cu) (tedit 0)
   (descr "Inductor, Chip; 2.86 mm L X 2.03 mm W X 2.03 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -1.46 1.05) (end -1.46 -1.05) (layer F.Fab) (width 0.12))
   (fp_line (start -1.46 -1.05) (end 1.46 -1.05) (layer F.Fab) (width 0.12))

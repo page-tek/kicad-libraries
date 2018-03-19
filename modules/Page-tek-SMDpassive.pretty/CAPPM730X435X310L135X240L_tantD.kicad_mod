@@ -1,11 +1,11 @@
 (module CAPPM730X435X310L135X240L_tantD (layer F.Cu) (tedit 57BE40AE)
   (descr "Capacitor, Polarized, Molded Body; 7.30 mm L X 4.35 mm W X 3.10 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -3.75 2.25) (end -3.75 -2.25) (layer F.Fab) (width 0.12))
   (fp_line (start -3.75 -2.25) (end 3.75 -2.25) (layer F.Fab) (width 0.12))

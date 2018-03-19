@@ -1,8 +1,11 @@
 (module INDC351X197X152L50N-1206 (layer F.Cu) (tedit 0)
   (descr "Inductor, Chip; 3.51 mm L X 1.975 mm W X 1.52 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -1.78 1) (end -1.78 -1) (layer F.Fab) (width 0.12))
   (fp_line (start -1.78 -1) (end 1.78 -1) (layer F.Fab) (width 0.12))

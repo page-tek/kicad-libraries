@@ -1,9 +1,9 @@
 (module Coilcraft_LPS3015 (layer F.Cu) (tedit 5A0B7DAD)
-  (fp_text reference REF** (at 0.0254 2.5654) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value Coilcraft_LPS3015 (at 0.2794 -2.7178) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start 1.9 -1.9) (end -1.9 -1.9) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.9 1.9) (end 1.9 -1.9) (layer F.CrtYd) (width 0.05))

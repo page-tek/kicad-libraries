@@ -1,11 +1,11 @@
 (module RESC320X160X70L45N-1206 (layer F.Cu) (tedit 0)
   (descr "Resistor, Chip; 3.20 mm L X 1.60 mm W X 0.70 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -1.7 0.9) (end -1.7 -0.9) (layer F.Fab) (width 0.12))
   (fp_line (start -1.7 -0.9) (end 1.7 -0.9) (layer F.Fab) (width 0.12))

@@ -1,8 +1,11 @@
 (module INDC490X305X343L65N-1812 (layer F.Cu) (tedit 0)
   (descr "Inductor, Chip; 4.90 mm L X 3.05 mm W X 3.43 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -2.48 1.55) (end -2.48 -1.55) (layer F.Fab) (width 0.12))
   (fp_line (start -2.48 -1.55) (end 2.48 -1.55) (layer F.Fab) (width 0.12))

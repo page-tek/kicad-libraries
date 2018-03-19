@@ -1,11 +1,11 @@
 (module CAPC160X80X90L35N-0603 (layer F.Cu) (tedit 0)
   (descr "Capacitor, Chip; 1.60 mm L X 0.80 mm W X 0.90 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.63 0.54) (thickness 0.12)))
   )
   (fp_line (start -0.88 0.48) (end -0.88 -0.48) (layer F.Fab) (width 0.12))
   (fp_line (start -0.88 -0.48) (end 0.88 -0.48) (layer F.Fab) (width 0.12))

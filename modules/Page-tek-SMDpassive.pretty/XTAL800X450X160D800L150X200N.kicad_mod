@@ -1,8 +1,8 @@
 (module XTAL800X450X160D800L150X200N (layer F.Cu) (tedit 0)
   (descr "Crystal; 8.00 mm L X 4.50 mm W X 1.60 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.12)))
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.1)))
   )
   (fp_line (start -4.08 2.33) (end -4.08 -2.33) (layer F.Fab) (width 0.12))
   (fp_line (start -4.08 -2.33) (end 4.08 -2.33) (layer F.Fab) (width 0.12))
