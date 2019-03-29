@@ -17,9 +17,6 @@
   (fp_line (start -1.56 -0.68) (end 1.56 -0.68) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.56 -0.68) (end 1.56 0.68) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.56 0.68) (end -1.56 0.68) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 0 0.25) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.34 0) (end -0.34 0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0 -0.34) (end 0 0.34) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -0.905 0) (size 0.8 0.86) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.905 0) (size 0.8 0.86) (layers F.Cu F.Paste F.Mask))
   (model smd_inductors/inductor_smd_0603.wrl

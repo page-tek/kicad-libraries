@@ -17,9 +17,6 @@
   (fp_line (start -2.31 -1.16) (end 2.31 -1.16) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.31 -1.16) (end 2.31 1.16) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.31 1.16) (end -2.31 1.16) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 0 0.25) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.35 0) (end -0.35 0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0 -0.35) (end 0 0.35) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -1.53 0) (size 1.06 1.82) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.53 0) (size 1.06 1.82) (layers F.Cu F.Paste F.Mask))
   (model smd_resistors/r_1206.wrl

@@ -1,4 +1,4 @@
-(module RESC160X80X55L30L-0603 (layer F.Cu) (tedit 0)
+(module RESC160X80X55L30L-0603 (layer F.Cu) (tedit 5C9C78B3)
   (descr "Resistor, Chip; 1.60 mm L X 0.80 mm W X 0.55 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
@@ -17,9 +17,6 @@
   (fp_line (start -1.18 -0.57) (end 1.18 -0.57) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.18 -0.57) (end 1.18 0.57) (layer F.CrtYd) (width 0.05))
   (fp_line (start 1.18 0.57) (end -1.18 0.57) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center 0 0) (end 0 0.2138) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.285 0) (end -0.285 0) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0 -0.285) (end 0 0.285) (layer F.CrtYd) (width 0.05))
   (pad 1 smd rect (at -0.715 0) (size 0.69 0.83) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.715 0) (size 0.69 0.83) (layers F.Cu F.Paste F.Mask))
   (model smd_resistors/r_0603.wrl
