@@ -1,4 +1,5 @@
-(module TP-3mm (layer F.Cu) (tedit 5963E408)
+(module TP-3mm (layer F.Cu) (tedit 5CA1C986)
+  (attr virtual)
   (fp_text reference REF** (at 0 2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

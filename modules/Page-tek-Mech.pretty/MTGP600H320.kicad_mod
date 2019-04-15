@@ -1,7 +1,11 @@
-(module MTGP600H320 (layer F.Cu) (tedit 0)
+(module MTGP600H320 (layer F.Cu) (tedit 5CA1B994)
   (descr "Mounting Hole, Plated; 6.00 mm Pad, 3.20 mm Hole")
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (attr virtual)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.12)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_line (start 0 -0.35) (end 0 0.35) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.2) (layers *.Cu *.Mask))
