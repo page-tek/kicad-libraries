@@ -1,4 +1,4 @@
-(module CC2564MODA (layer F.Cu) (tedit 5CDA4389)
+(module CC2564MODA (layer F.Cu) (tedit 5CDBC795)
   (fp_text reference REF** (at 0.5 -1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -54,9 +54,9 @@
   (pad 32 smd rect (at -0.45 3.05) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 34 smd rect (at 4.425 3.135) (size 4.85 0.4) (layers F.Cu F.Paste F.Mask))
   (pad 35 smd rect (at 4.425 -3.135) (size 4.85 0.4) (layers F.Cu F.Paste F.Mask))
-  (model "${KISYS3DMOD}/RFM95 LoRa v15.step"
-    (offset (xyz -8 8 -0))
+  (model ${KISYS3DMOD}/CC2564MODA.step
+    (offset (xyz -7 -3.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
