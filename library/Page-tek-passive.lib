@@ -9,6 +9,20 @@ F1 "ANT1" 150 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
+P 2 0 1 0 0 0 0 400 N
+P 3 0 1 0 150 400 0 250 -150 400 N
+X RF 1 0 -100 100 U 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# ANT2
+#
+DEF ANT2 ANT 0 40 N N 1 F N
+F0 "ANT" 150 50 50 H V C CNN
+F1 "ANT2" 150 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
 T 0 100 -100 50 0 0 0 GND Normal 0 C C
 T 0 -150 50 50 0 0 0 RF Normal 0 C C
 P 2 0 1 0 0 0 0 400 N
@@ -333,7 +347,7 @@ ENDDEF
 #
 # Ferrite_Bead
 #
-DEF ~Ferrite_Bead E 0 40 N N 1 F N
+DEF Ferrite_Bead E 0 40 N N 1 F N
 F0 "E" 0 100 60 H V C CNN
 F1 "Ferrite_Bead" 0 0 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
@@ -460,7 +474,7 @@ ENDDEF
 #
 # Jumper_NC_Small
 #
-DEF ~Jumper_NC_Small JP 0 30 N N 1 F N
+DEF Jumper_NC_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
 F1 "Jumper_NC_Small" 10 -60 50 H I C CNN
 F2 "" 0 0 50 H V C CNN
@@ -476,7 +490,7 @@ ENDDEF
 #
 # Jumper_NO_Small
 #
-DEF ~Jumper_NO_Small JP 0 30 N N 1 F N
+DEF Jumper_NO_Small JP 0 30 N N 1 F N
 F0 "JP" 0 80 50 H V C CNN
 F1 "Jumper_NO_Small" 10 -60 50 H I C CNN
 F2 "" 0 0 50 H V C CNN
@@ -507,6 +521,20 @@ A 0 20 20 -899 899 0 1 0 N 0 0 0 40
 A 0 60 20 -899 899 0 1 0 N 0 40 0 80
 X ~ 1 0 100 20 D 40 40 1 1 P
 X ~ 2 0 -100 20 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# NS
+#
+DEF NS NS 0 0 N N 1 F N
+F0 "NS" 0 0 50 H V C CNN
+F1 "NS" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 20 0 1 39 N
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ ~ 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
