@@ -1,0 +1,17 @@
+(module Symbol_HighVoltage (layer F.Cu) (tedit 5DD9CD52)
+  (descr "Symbol, HighVoltage, Type2, Copper Top, Big,")
+  (tags "Symbol, HighVoltage, Type2, Copper Top, Big,")
+  (attr virtual)
+  (fp_text reference REF** (at 0 4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Symbol_HighVoltage (at 0 7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 1.448218 -7.437874) (xy -1 -1) (xy 2.322305 -0.889136) (xy -1.49444 5.969615)
+    (xy -0.60658 5.791556) (xy -2.506846 8.16621) (xy -2.577792 5.060575) (xy -2.118303 5.72305)
+    (xy 0.243979 0.597659) (xy -3.576424 0.530373) (xy -0.297606 -7.887427)) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0 -12) (end -12 10) (layer F.SilkS) (width 1))
+  (fp_line (start -12 10) (end 13 10) (layer F.SilkS) (width 1))
+  (fp_line (start 13 10) (end 0 -12) (layer F.SilkS) (width 1))
+)

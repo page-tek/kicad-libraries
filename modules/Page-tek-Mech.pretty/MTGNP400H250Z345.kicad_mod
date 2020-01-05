@@ -1,4 +1,4 @@
-(module MTGNP400H250Z345 (layer F.Cu) (tedit 5CDD01F4)
+(module MTGNP400H250Z345 (layer F.Cu) (tedit 5DD9AED7)
   (descr "Mounting Hole, Non-Plated; 4.00 mm Clearance, 2.50 mm Hole")
   (attr virtual)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
@@ -7,5 +7,6 @@
   (fp_text value Val** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 1 1) (drill 2.5) (layers *.Cu *.Mask))
+  (fp_circle (center 0 0) (end 0 2) (layer F.CrtYd) (width 0.12))
+  (pad "" np_thru_hole circle (at 0 0) (size 2.5 2.5) (drill 2.5) (layers *.Cu))
 )

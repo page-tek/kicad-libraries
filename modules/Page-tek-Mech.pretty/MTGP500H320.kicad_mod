@@ -1,4 +1,4 @@
-(module MTGP500H320 (layer F.Cu) (tedit 5CDD019F)
+(module MTGP500H320 (layer F.Cu) (tedit 5DD9ABE0)
   (descr "Mounting Hole, Plated; 5.00 mm Pad, 3.20 mm Hole")
   (attr virtual)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
