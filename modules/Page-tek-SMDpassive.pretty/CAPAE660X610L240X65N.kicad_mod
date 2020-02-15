@@ -1,4 +1,4 @@
-(module CAPAE660X610L240X65N (layer F.Cu) (tedit 0)
+(module CAPAE660X610L240X65N (layer F.Cu) (tedit 5E477D35)
   (descr "Capacitor, Aluminum Electrolytic; 6.60 mm L X 6.60 mm W X 6.10 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
@@ -38,6 +38,6 @@
   (model smd_cap/c_elec_6_3x7_7.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )

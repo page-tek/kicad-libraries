@@ -1,4 +1,4 @@
-(module MCX-SMD (layer F.Cu) (tedit 5A3D7152)
+(module MCX-SMD (layer F.Cu) (tedit 5E477352)
   (fp_text reference REF** (at -0.11 1.55) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -10,4 +10,9 @@
   (pad 2 smd rect (at 3 3) (size 2.5 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3 3) (size 2.5 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3 -3) (size 2.5 2.5) (layers F.Cu F.Paste F.Mask))
+  (model ${KISYS3DMOD}/MCX-J-P-H-ST-SM1.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1.2 1 1.2))
+    (rotate (xyz -90 0 0))
+  )
 )
