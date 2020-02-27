@@ -1,4 +1,4 @@
-(module CAPC450X320X130L60N-1812 (layer F.Cu) (tedit 5E4AF00F)
+(module CAPC450X320X130L60N-1812 (layer F.Cu) (tedit 5E4E3C18)
   (descr "Capacitor, Chip; 4.50 mm L X 3.20 mm W X 1.30 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
@@ -34,4 +34,9 @@
   (fp_line (start 3.01 1.96) (end -3.01 1.96) (layer F.CrtYd) (width 0.05))
   (pad 1 smd roundrect (at -2.08 0) (size 1.45 3.51) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1724))
   (pad 2 smd roundrect (at 2.08 0) (size 1.45 3.51) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1724))
+  (model ${KISYS3DMOD}/smd_cap/c_1812.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
