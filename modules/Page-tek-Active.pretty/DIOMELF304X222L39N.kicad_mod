@@ -1,4 +1,4 @@
-(module DIOMELF304X222L39N (layer F.Cu) (tedit 5E499BD9)
+(module DIOMELF304X222L39N (layer F.Cu) (tedit 5E59A8B6)
   (descr "Diode, Metal Electrode Leadless Face (MELF); 3.048 mm L X 2.223 mm Dia body")
   (attr smd)
   (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
@@ -32,6 +32,6 @@
   (fp_line (start -2.2 -1.47) (end 2.2 -1.47) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.2 -1.47) (end 2.2 1.47) (layer F.CrtYd) (width 0.05))
   (fp_line (start 2.2 1.47) (end -2.2 1.47) (layer F.CrtYd) (width 0.05))
-  (pad C smd roundrect (at -1.44 0) (size 1.12 2.53) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2232))
-  (pad A smd roundrect (at 1.44 0) (size 1.12 2.53) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2232))
+  (pad 1 smd roundrect (at -1.44 0) (size 1.12 2.53) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.223))
+  (pad 2 smd roundrect (at 1.44 0) (size 1.12 2.53) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.223))
 )
