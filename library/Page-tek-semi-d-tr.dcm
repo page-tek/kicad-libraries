@@ -81,6 +81,11 @@ $CMP D_Small
 D Diode
 $ENDCMP
 #
+$CMP D_x2_ACom_KKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
 $CMP D_x2_Serial_AKC
 D Double diode Schottky (Serie)
 K DEV DIODE
