@@ -1,11 +1,13 @@
-(module CAPRD500W80D1250H2650 (layer F.Cu) (tedit 0)
+(module CAPRD500W80D1250H2650 (layer F.Cu) (tedit 5EB766F8)
   (descr "Capacitor, Radial (Electrolytic); 5.00 mm C X 12.50 mm Dia X 26.50 mm H body")
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.12)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 0 6.25) (layer F.Fab) (width 0.12))
   (fp_circle (center 0 0) (end 0 6.25) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0 -0.35) (end 0 0.35) (layer F.CrtYd) (width 0.05))
   (pad 1 thru_hole circle (at -2.5 0) (size 1.58 1.58) (drill 1.05) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 1.58 1.58) (drill 1.05) (layers *.Cu *.Mask))
 )
