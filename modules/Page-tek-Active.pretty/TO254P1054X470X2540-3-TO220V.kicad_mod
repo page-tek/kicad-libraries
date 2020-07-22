@@ -1,10 +1,10 @@
-(module TO254P1054X470X2540-3-TO220 (layer F.Cu) (tedit 57C34C66)
+(module TO254P1054X470X2540-3-TO220V (layer F.Cu) (tedit 5EBBB00C)
   (descr "Flange Mount (TO-220) Vertical,2.54 mm pitch;3 pin, 10.54 mm L X 4.70 mm W X 25.40 mm H body")
-  (fp_text reference REF** (at 2.54 -0.32) (layer F.SilkS)
+  (fp_text reference REF** (at 2.54 -0.32) (layer F.SilkS) hide
     (effects (font (size 1.2 1.2) (thickness 0.12)))
   )
-  (fp_text value Val** (at 0 0) (layer F.SilkS)
-    (effects (font (thickness 0.15)))
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
   )
   (fp_line (start 0.816 -1.5) (end 0.816 -2.65) (layer F.SilkS) (width 0.15))
   (fp_line (start 4.264 -1.5) (end 4.264 -2.65) (layer F.SilkS) (width 0.15))
@@ -24,4 +24,9 @@
   (pad 1 thru_hole rect (at 0 0) (size 1.86 1.86) (drill 1.24) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.86 1.86) (drill 1.24) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 5.08 0) (size 1.86 1.86) (drill 1.24) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/to/to220_std.wrl
+    (offset (xyz 2.54 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
