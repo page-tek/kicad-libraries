@@ -1,0 +1,11 @@
+(module TP-1.5mm (layer F.Cu) (tedit 5F1CCB15)
+  (attr virtual)
+  (fp_text reference REF** (at 0 2.3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TP-1.5mm (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1 0) (layer F.SilkS) (width 0.15))
+  (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask))
+)
