@@ -1,0 +1,13 @@
+(module mini-circuits-ww107 (layer F.Cu) (tedit 5FF79DF9)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value mini-circuits-ww107 (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 1.1 0) (layer F.Fab) (width 0.12))
+  (pad 1 smd rect (at -2.08 0) (size 1.83 1) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 2.08 90) (size 1.83 1) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.08 0 180) (size 1.83 1) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 0 -2.08 270) (size 1.83 1) (layers F.Cu F.Paste F.Mask))
+)
