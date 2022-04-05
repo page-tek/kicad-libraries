@@ -571,4 +571,9 @@ D 5 pins
 K connector
 $ENDCMP
 #
+$CMP uSD-4gnd
+D SD Card Reader
+K connector SD
+$ENDCMP
+#
 #End Doc Library
