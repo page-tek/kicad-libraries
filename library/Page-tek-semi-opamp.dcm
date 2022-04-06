@@ -8,4 +8,8 @@ $CMP OPA227
 D OPA227
 $ENDCMP
 #
+$CMP TLV342
+D TLV342
+$ENDCMP
+#
 #End Doc Library
