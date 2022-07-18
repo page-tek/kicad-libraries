@@ -1,0 +1,14 @@
+(footprint "TP-RND-2mm-1mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F801409)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3466cda7-8b6d-422c-92e4-d22bbe2d4a4d)
+  )
+  (fp_text value "TP-SQ-2mm" (at 0 -0.5) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a76fbfb4-5989-4acc-8232-260830730951)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp b06ce446-c27e-47df-a4e3-d10b64552c26))
+)
